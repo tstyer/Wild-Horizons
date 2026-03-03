@@ -1,0 +1,15 @@
+{
+  "name": "wild-horizons",
+  "version": "1.0.0",
+  "description": "a dataset of the planets most interesting places",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Wild-Horizons"
+  },
+  "author": "Travis",
+  "license": "ISC"
+}
