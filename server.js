@@ -13,7 +13,9 @@ const server = http.createServer(async (req, res) => {
   const destinations = await getDataFromDB()
 
     if(req.url === '/' && req.method === 'GET') {
-        res.end(JSON.stringify(Destinations))
+        res.statusCode = 200
+        res.setHeader('Content-Type', 'application/json')
+        res.end(JSON.stringify(destinations))
     }
 })
 
